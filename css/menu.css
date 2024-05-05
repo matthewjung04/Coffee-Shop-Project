@@ -1,0 +1,85 @@
+/* Menu Page Header */
+.menu-header {
+    background-image: url(../assets/images/coffee-circle.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 35rem;
+}
+
+.menu-header__title {
+    width: 19%;
+    height: 25%;
+    background-color: #393939;
+
+    color: #FFF;
+    text-align: center;
+    
+    display: block;
+    margin: 0 auto;
+
+    padding-bottom: 2rem;
+}
+
+/* Secondary Navigation */
+.secondary-navigation {
+    background-color: #393939;
+    width: 100%;
+    padding: 0.5px;
+}
+
+.secondary-navigation__list {
+    list-style: none;
+    text-align: center;
+}
+
+.secondary-navigation__item {
+    display: inline;
+    border-left: 0.25rem solid #5BACC3;
+    padding-left: 1rem;
+    padding-bottom: 0;
+}
+
+.secondary-navigation__link {
+    background-color: #393939;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #FFF;
+
+    padding-right: 0.5rem;
+    padding-bottom: 0;
+}
+
+/* Menu Items Background Color */
+#hot-drinks, #pastries {
+    background-color: #FFF0ED;
+}
+
+/* Menu Items */
+.menu-sections__title {
+    text-align: center;
+    margin: 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.menu-sections__products {
+    text-align: center;
+    margin: 0;
+}
+
+.menu-sections__description {
+    font-style: italic;
+    text-align: center;
+    width: 39%;
+    margin: auto;
+}
+
+.menu-sections__price {
+    color: #5BACC3;
+    text-align: center;
+    margin: 0;
+    padding: 0.25rem;
+    padding-bottom: 2rem;
+}

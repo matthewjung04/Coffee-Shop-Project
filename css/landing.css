@@ -1,0 +1,149 @@
+/* Landing Page Header */
+.header-section {
+    background-color: #FFF0ED;
+    padding-top: 8.75rem;
+    padding-bottom: 10rem;
+    display: flex;
+    align-items: center;
+}
+
+.header-section__title {
+    font-weight: 300;
+    font-size: 3.75rem;
+
+    display: block;
+    width: 35%;
+    margin:0;
+    padding-left: 8rem;
+}
+
+.header-section__description {
+    width: 32rem;
+    margin-bottom: 2.5rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.header-section__button {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+    background-color: #5BACC3;
+    color: #FFF;
+
+    display: inline-block;
+    padding: 1rem 2rem;
+    border: none;
+}
+
+.header-section__photo {
+    padding-left: 20rem;
+}
+
+/* Product Cards Layout*/
+.product-card {
+    background-color: #FFF;
+    width: 20rem;
+    height: 30rem;
+    box-shadow: 0 5px 9px -1px rgba(0,0,0,0.25);
+
+    display: inline-block;
+    align-self: center;
+    margin: 3rem;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.product-card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Product Cards Contents */
+.product-card__photo {
+    height: 280px;
+    display: block;
+    margin-top: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product-card__price {
+    color: #5BACC3;
+    text-align: center;
+    font-size: 2.1rem;
+}
+
+/* View All Button */
+.view-all button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+
+}
+
+/* Discount Section */
+.discount-section {
+    background-color: #FFF;
+    text-align: center;
+    display:block;
+
+    margin-left: auto;
+    padding: 10rem 5rem;
+}
+
+.discount-section__instruction{
+    background-color: #393939;
+    color: #FFF;
+    font-size: 2.5rem;
+    margin: 1.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 0.25rem;
+}
+
+.discount-section__code {
+    background-color: #393939;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 2.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 0.25rem;
+}
+
+
+/* Footer Section */
+.footer-section {
+    background-color: #FFF0ED;
+
+    display: block;
+    margin-left: auto;
+    padding: 5rem 5rem;
+}
+
+.footer-section__address, .footer-section__hours,
+.footer-section__social {
+    display: inline-block;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.footer-section__address p {
+    margin: 0;
+    width: 20rem;
+}
+
+.footer-section__hours p {
+    margin: 0;
+    width:25rem;
+}
+
+.footer-section__hours span{
+    margin: 0;
+    font-weight: 700;
+    font-size: 1.5rem;
+}

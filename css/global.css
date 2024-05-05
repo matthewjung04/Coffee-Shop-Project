@@ -1,0 +1,75 @@
+/* Default webiste settings*/
+body {
+    background-color: #F7F7F7;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+}
+
+h1, h2 {
+    font-weight: 300;
+    font-size: 3.5rem;
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 2rem;
+} 
+
+p {
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+button {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 1rem 2rem;
+    border: none;
+    background-color: #5BACC3;
+    color: #FFF;
+    display: inline-block;
+}
+
+/* Primary Navigation
+(For both landing and menu page)*/
+.primary-navigation {
+    background-color: #FFF0ED;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 1rem;
+}
+
+.primary-navigation__title {
+    font-weight: 300;
+    font-size: 3.25rem;
+    text-decoration: none;
+
+    display: inline-block;
+    margin-right: 2rem;
+    margin-top: 0;
+    margin-bottom: 0;    
+}
+
+.primary-navigation__logo {
+    margin: 0;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.primary-navigation__logo img{
+    width: 50px;
+    vertical-align: text-bottom;
+}
+
+.primary-navigation__link {
+    text-decoration: none;
+    margin-right: 2rem;
+}
+
+#primary-navigation__link--ShopNow {
+    color: #5BACC3;
+    text-decoration: none;
+}

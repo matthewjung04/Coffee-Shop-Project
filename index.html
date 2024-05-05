@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="./css/global.css" rel="stylesheet">
+    <link href="./css/landing.css" rel="stylesheet">
+    <title>Coffee Shop - Home</title>
+
+    <!-- Primary Navigation -->
+    <nav class="primary-navigation">
+        <a href="./index.html" class="primary-navigation__logo">
+            <img src="./assets/logos/coffee-beans-logo-and-footer.svg" alt="navigation logo">
+        </a>
+        <h1 class="primary-navigation__title">nitro</h1>
+        <a href="./index.html" class="primary-navigation__link">ABOUT</a>
+        <a href="./pages/menu.html" class="primary-navigation__link">MENU</a>
+        <a href="./pages/menu.html" id="primary-navigation__link--ShopNow">SHOP NOW</a>
+    </nav> 
+</head>
+
+<body>
+        <!-- Landing Page Header -->
+        <section class="header-section">
+            <h1 class="header-section__title">
+                Nitro Coffee
+                <p class="header-section__description">
+                    Coffee is a brewed drink prepared from roasted coffee beans, the
+                    seeds of of berries from certain Coffea species 
+                </p>
+                <a href="pages/menu.html">
+                    <button type="button" class="header-section__button">SHOP NOW</button>
+                </a>
+            </h1>
+            <div>
+                <img src="./assets/images/coffeebeans-hero.png" alt="coffee bag" class="header-section__photo">
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <!-- Our Products Section -->
+        <h1 style="text-align: center;">Our Products</h1>
+
+        <!-- Product Cards -->
+        <div class="product-card-container">
+            <!-- Coffee Beans -->
+            <div class="product-card">
+                <img src="./assets/images/coffeebeans.png" alt="coffee bean bag" class="product-card__photo">
+                <h3 style="text-align: center">Coffee Beans</h3>
+                <p class="product-card__price">$18.99</p>
+            </div>
+            <!-- Cold Brew -->
+            <div class="product-card">
+                <img src="./assets/images/coldbrew.png" alt="coffee can" class="product-card__photo">
+                <h3 style="text-align: center">Cold Brew</h3>
+                <p class="product-card__price">$4.99</p>
+            </div>
+
+            <!-- In-House Brew -->
+            <div class="product-card">
+                <img src="./assets/images/inhousebrew.png" alt="coffee cup" class="product-card__photo">
+                <h3 style="text-align: center">In-house Brew</h3>
+                <p class="product-card__price">$2.99</p>
+            </div>
+        </div>
+
+        <!-- VIEW ALL Button -->
+        <section class="view-all">
+            <a href="./pages/menu.html" style="text-decoration: none;">
+                <button type="button">VIEW ALL</button>
+            </a>  
+        </section>
+       
+        <!-- Discount Section -->
+        <section class="discount-section">
+            <p class="discount-section__instruction">
+                Get 20% off your first order with code:
+                <span class="discount-section__code">FirstNitro</span>
+            </p>
+        </section>
+    </main>
+
+    <footer class="footer-section">
+        <!-- Address Division (Section) -->
+        <div class="footer-section__address">
+            <h3>Address</h3>
+            <p>503 Broadway Penthouse</p>
+            <p>New York</p>
+        </div>
+        <!-- Hours Division (Section) -->
+        <div class="footer-section__hours">
+            <h3>Hours</h3>
+            <p>
+                <span>Monday - Friday:</span>
+                9am - 7pm
+            </p>
+            <p>
+                <span>Saturday - Sunday:</span>
+                10am - 5pm
+            </p>
+        </div>
+        <!-- Social Media Divison (Section) -->
+        <div class="footer-section__social">
+            <h3>Social</h3>
+            <a href="https://facebook.com"><img src="./assets/logos/Facebook-Icon.svg" alt="facebook logo" width="50px"</a>
+            <a href="https://yelp.com"><img src="./assets/logos/Yelp-Icon.svg" alt="yelp logo" width="50px"></a>
+            <a href="https://instagram.com"><img src="./assets/logos/Instagram-Icon.svg" alt="instagram logo" width="50px"></a>
+        </div>
+    </footer>
+</body>
+</html>

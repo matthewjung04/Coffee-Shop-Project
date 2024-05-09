@@ -9,15 +9,21 @@
     <title>Coffee Shop - Home</title>
 
     <!-- Primary Navigation -->
-    <nav class="primary-navigation">
-        <a href="./index.html" class="primary-navigation__logo">
-            <img src="./assets/logos/coffee-beans-logo-and-footer.svg" alt="navigation logo">
-        </a>
-        <h1 class="primary-navigation__title">nitro</h1>
-        <a href="./index.html" class="primary-navigation__link">ABOUT</a>
-        <a href="./pages/menu.html" class="primary-navigation__link">MENU</a>
-        <a href="./pages/menu.html" id="primary-navigation__link--ShopNow">SHOP NOW</a>
-    </nav> 
+    <div class="primary-navigation">
+        <div>
+            <a href="./index.html" class="primary-navigation__logo">
+                <img src="./assets/logos/coffee-beans-logo-and-footer.svg" alt="navigation logo">
+            </a>
+            <h1 class="primary-navigation__title">nitro</h1>
+        </div>
+        <div>
+            <nav>
+                <a href="./index.html" class="primary-navigation__link">ABOUT</a>
+                <a href="./pages/menu.html" class="primary-navigation__link">MENU</a>
+                <a href="./pages/menu.html" id="primary-navigation__link--ShopNow">SHOP NOW</a>
+            </nav>
+        </div>
+    </div> 
 </head>
 
 <body>
@@ -94,14 +100,41 @@
                 <button type="button">VIEW ALL</button>
             </a>  
         </section>
-       
-        <!-- Discount Section -->
-        <section class="discount-section">
-            <p class="discount-section__instruction">
-                Get 20% off your first order with code:
-                <span class="discount-section__code">FirstNitro</span>
-            </p>
-        </section>
+    
+        <!-- Bottom Section -->
+        <div class="bottom-section">
+            <!-- Learn More Section -->
+            <div class="learn-more">
+                <div class="learn-more__intro">
+                    <div>
+                        <h1 class="learn-more__title">We're Different</h1>
+                        <p class="learn-more__description">We grow and roast our own beans. Every bean, every cup,
+                            every step of the way, we strive for excellence.
+                        </p>
+                    </div>
+                    <div class="learn-more__image--icons">
+                        <img src="./assets/logos/planting.svg" alt="planting image" width="50px">
+                        <img src="./assets/logos/coffee-beans.svg" alt="coffee beans image" width="50px">
+                        <img src="./assets/logos/coffee-cup.svg" alt="coffee cup image" width="50px">
+                    </div>
+                    <div>
+                        <a href="./index.html" class="learn-more__link">
+                            <button type="button" class="learn-more__button">LEARN MORE</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="learn-more__image">
+                    <img src="./assets/images/tiltedcan.png" alt="coffee can image">
+                </div>
+            </div>
+            <!-- Discount Section -->
+            <div class="discount-code">
+                <p class="discount-code__message--regular">
+                    Get 20% off your first order with code:
+                    <span class="discount-code__message--bold">FirstNitro</span>
+                </p>
+            </div>
+        </div>
     </main>
 
     <footer class="footer-section">

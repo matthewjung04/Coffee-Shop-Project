@@ -109,34 +109,90 @@
     margin-bottom: 4rem;
 }
 
-/* Discount Section */
-.discount-section {
+/* Bottom Section */
+.bottom-section {
     background-color: #FFF;
     text-align: center;
-    display:block;
 
-    margin-left: auto;
-    padding: 10rem 5rem;
+    padding: 6rem 6rem 12rem 6rem;
+
+    display:flex;
+    flex-direction: column;
+    row-gap: 11rem;
 }
 
-.discount-section__instruction{
+/* Learn More Section */
+.learn-more {
+    display: flex;
+    justify-content: space-between;
+}
+
+.learn-more__intro {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.learn-more__title {
+    margin: 0;
+    text-align: left;
+    width: 65%;
+}
+
+.learn-more__description {
+    text-align: left;
+    width: 65%;
+}
+
+.learn-more__image--icons {
+    padding-top: 0.25rem;
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.learn-more__button {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.learn-more__link {
+    text-decoration: none;
+}
+
+.learn-more__image {
+    width: 25rem;
+    height: 20rem;
+    background-image: url(/assets/images/coldbrewbackground.png);
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Discount Section */
+.discount-code {
     background-color: #393939;
     color: #FFF;
+
+    margin: 0;
+    padding: 2rem 0;
+}
+
+.discount-code__message--regular {
     font-size: 2.5rem;
-    margin: 1.5rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    padding-left: 0.25rem;
+    margin: 0;
+    padding: 0;
 }
 
-.discount-section__code {
-    background-color: #393939;
-    color: #FFF;
+.discount-code_message--bold {
     font-weight: 700;
     font-size: 2.5rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    padding-right: 0.25rem;
+    margin: 0;
+    padding: 0;
 }
 
 

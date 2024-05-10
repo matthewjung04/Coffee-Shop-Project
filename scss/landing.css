@@ -1,0 +1,240 @@
+body {
+  background-color: #F7F7F7;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+}
+
+h1, h2, .header-section__title, .primary-navigation__title {
+  font-size: 3.5rem;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+p, .header-section__description, .header-section__button, button {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+button {
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border: none;
+  background-color: #5BACC3;
+  color: #FFF;
+  display: inline-block;
+}
+
+.primary-navigation {
+  background-color: #FFF0ED;
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.primary-navigation__logo {
+  margin: 0;
+  text-decoration: none;
+  display: inline-block;
+}
+.primary-navigation__logo--position {
+  width: 50px;
+  vertical-align: text-bottom;
+}
+.primary-navigation__title {
+  text-decoration: none;
+  margin-right: 2rem;
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.primary-navigation__link {
+  text-decoration: none;
+  margin-right: 2rem;
+}
+.primary-navigation__link--ShopNow {
+  color: #5BACC3;
+  text-decoration: none;
+}
+
+.header-section {
+  background-color: #FFF0ED;
+  padding-top: 8.75rem;
+  padding-bottom: 10rem;
+  display: flex;
+  align-items: center;
+}
+.header-section__title {
+  display: block;
+  width: 35%;
+  margin: 0;
+  padding-left: 8rem;
+}
+.header-section__description {
+  width: 32rem;
+  margin-bottom: 2.5rem;
+}
+.header-section__button {
+  text-decoration: none;
+  background-color: #5BACC3;
+  color: #FFF;
+  display: inline-block;
+  padding: 1rem 2rem;
+  border: none;
+}
+.header-section__photo {
+  padding-left: 20rem;
+}
+
+.product-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-card {
+  background-color: #FFF;
+  width: 20rem;
+  height: 30rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3rem;
+  padding: 0;
+}
+.product-card__photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 280px;
+  margin-top: 1.5rem;
+}
+.product-card__description {
+  background-color: #FFF0ED;
+  margin-top: 2.5rem;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.product-card__description--name, .product-card__description--subtext {
+  margin: 0;
+}
+.product-card__description--subtext {
+  font-weight: 300;
+  color: #909090;
+}
+.product-card__description--price {
+  color: #5BACC3;
+  font-weight: 700;
+  font-size: 2.1rem;
+}
+
+.view-all button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+}
+
+.bottom-section {
+  background-color: #FFF;
+  text-align: center;
+  padding: 6rem 6rem 12rem 6rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 11rem;
+}
+
+/* Learn More Section */
+.learn-more {
+  display: flex;
+  justify-content: space-between;
+}
+.learn-more__intro {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.learn-more__title {
+  margin: 0;
+}
+.learn-more__description, .learn-more__title {
+  text-align: left;
+  width: 65%;
+}
+.learn-more__image {
+  width: 25rem;
+  height: 20rem;
+  background-image: url(../assets/images/coldbrewbackground.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.learn-more__icons {
+  padding-top: 0.25rem;
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+}
+.learn-more__button {
+  display: flex;
+  margin-top: 2rem;
+}
+.learn-more__link {
+  text-decoration: none;
+}
+
+.discount-code {
+  background-color: #393939;
+  color: #FFF;
+  margin: 0;
+  padding: 2rem 0;
+}
+.discount-code__message--regular, .discount-code__message--bold {
+  font-size: 2.5rem;
+  margin: 0;
+  padding: 0;
+}
+.discount-code__message--bold {
+  font-weight: 700;
+}
+
+/* Footer Section */
+.footer-section__address, .footer-section__hours,
+.footer-section__social {
+  display: inline-block;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.footer-section {
+  background-color: #FFF0ED;
+  display: block;
+  margin-left: auto;
+  padding: 5rem 5rem;
+}
+.footer-section__address--info, .footer-section__hours--time {
+  margin: 0;
+  width: 20rem;
+}
+.footer-section__hours--date {
+  margin: 0;
+  font-weight: 700;
+  font-size: 1.5rem;
+}/*# sourceMappingURL=landing.css.map */

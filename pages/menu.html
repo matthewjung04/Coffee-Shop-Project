@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
-    <link href="../css/global.css" rel="stylesheet">
-    <link href="../css/menu.css" rel="stylesheet">
+    <link href="../scss/partials/global.css" rel="stylesheet">
+    <link href="../scss/menu.css" rel="stylesheet">
     <title>Coffee Shop - Menu</title>
 
     <!-- Primary Navigation -->
     <div class="primary-navigation">
         <div>
             <a href="../index.html" class="primary-navigation__logo">
-                <img src="../assets/logos/coffee-beans-logo-and-footer.svg" alt="navigation logo">   
+                <img
+                src="../assets/logos/coffee-beans-logo-and-footer.svg" alt="navigation logo"
+                class="primary-navigation__logo--position">   
             </a>
             <h1 class="primary-navigation__title">nitro</h1>
         </div>
@@ -20,7 +22,7 @@
             <nav>
                 <a href="../index.html" class="primary-navigation__link">ABOUT</a>
                 <a href="./menu.html" class="primary-navigation__link">MENU</a>
-                <a href="./menu.html" id="primary-navigation__link--ShopNow">SHOP NOW</a>
+                <a href="./menu.html" class="primary-navigation__link--ShopNow">SHOP NOW</a>
             </nav>
         </div>
     </div> 

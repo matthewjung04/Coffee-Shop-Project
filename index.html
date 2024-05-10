@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
-    <link href="./css/global.css" rel="stylesheet">
-    <link href="./css/landing.css" rel="stylesheet">
+    <link href="./scss/partials/global.css" rel="stylesheet">
+    <link href="./scss/landing.css" rel="stylesheet">
     <title>Coffee Shop - Home</title>
 
     <!-- Primary Navigation -->
     <div class="primary-navigation">
         <div>
             <a href="./index.html" class="primary-navigation__logo">
-                <img src="./assets/logos/coffee-beans-logo-and-footer.svg" alt="navigation logo">
+                <img
+                src="./assets/logos/coffee-beans-logo-and-footer.svg" alt="navigation logo"
+                class="primary-navigation__logo--position">
             </a>
             <h1 class="primary-navigation__title">nitro</h1>
         </div>
@@ -20,7 +22,7 @@
             <nav>
                 <a href="./index.html" class="primary-navigation__link">ABOUT</a>
                 <a href="./pages/menu.html" class="primary-navigation__link">MENU</a>
-                <a href="./pages/menu.html" id="primary-navigation__link--ShopNow">SHOP NOW</a>
+                <a href="./pages/menu.html" class="primary-navigation__link--ShopNow">SHOP NOW</a>
             </nav>
         </div>
     </div> 
@@ -112,7 +114,7 @@
                             every step of the way, we strive for excellence.
                         </p>
                     </div>
-                    <div class="learn-more__image--icons">
+                    <div class="learn-more__icons">
                         <img src="./assets/logos/planting.svg" alt="planting image" width="50px">
                         <img src="./assets/logos/coffee-beans.svg" alt="coffee beans image" width="50px">
                         <img src="./assets/logos/coffee-cup.svg" alt="coffee cup image" width="50px">
@@ -141,18 +143,18 @@
         <!-- Address Division (Section) -->
         <div class="footer-section__address">
             <h3>Address</h3>
-            <p>503 Broadway Penthouse</p>
-            <p>New York</p>
+            <p class="footer-section__address--info">503 Broadway Penthouse</p>
+            <p class="footer-section__address--info">New York</p>
         </div>
         <!-- Hours Division (Section) -->
         <div class="footer-section__hours">
             <h3>Hours</h3>
-            <p>
-                <span>Monday - Friday:</span>
+            <p class="footer-section__hours--time">
+                <span class="footer-section__hours--date">Monday - Friday:</span>
                 9am - 7pm
             </p>
-            <p>
-                <span>Saturday - Sunday:</span>
+            <p class="footer-section__hours--time">
+                <span class="footer-section__hours--date">Saturday - Sunday:</span>
                 10am - 5pm
             </p>
         </div>

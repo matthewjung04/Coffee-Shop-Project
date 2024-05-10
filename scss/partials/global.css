@@ -1,0 +1,65 @@
+body {
+  background-color: #F7F7F7;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+}
+
+h1, h2, .primary-navigation__title {
+  font-size: 3.5rem;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+p, button {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+button {
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border: none;
+  background-color: #5BACC3;
+  color: #FFF;
+  display: inline-block;
+}
+
+.primary-navigation {
+  background-color: #FFF0ED;
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.primary-navigation__logo {
+  margin: 0;
+  text-decoration: none;
+  display: inline-block;
+}
+.primary-navigation__logo--position {
+  width: 50px;
+  vertical-align: text-bottom;
+}
+.primary-navigation__title {
+  text-decoration: none;
+  margin-right: 2rem;
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.primary-navigation__link {
+  text-decoration: none;
+  margin-right: 2rem;
+}
+.primary-navigation__link--ShopNow {
+  color: #5BACC3;
+  text-decoration: none;
+}/*# sourceMappingURL=global.css.map */

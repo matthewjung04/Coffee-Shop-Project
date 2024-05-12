@@ -4,7 +4,8 @@ body {
   font-size: 18px;
   font-weight: 400;
   margin: 0;
-  overflow-x: hidden;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 h1, h2, .primary-navigation__title {
@@ -28,7 +29,7 @@ button {
   border: none;
   background-color: #5BACC3;
   color: #FFF;
-  display: inline-block;
+  display: flex;
 }
 
 .primary-navigation {
@@ -43,7 +44,7 @@ button {
 .primary-navigation__logo {
   margin: 0;
   text-decoration: none;
-  display: inline-block;
+  display: flex;
 }
 .primary-navigation__logo--position {
   width: 50px;
@@ -52,7 +53,7 @@ button {
 .primary-navigation__title {
   text-decoration: none;
   margin-right: 2rem;
-  display: inline-block;
+  display: flex;
   margin-top: 0;
   margin-bottom: 0;
 }

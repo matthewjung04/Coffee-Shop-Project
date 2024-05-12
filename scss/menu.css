@@ -4,7 +4,8 @@ body {
   font-size: 18px;
   font-weight: 400;
   margin: 0;
-  overflow-x: hidden;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 h1, h2, .primary-navigation__title {
@@ -28,7 +29,7 @@ button {
   border: none;
   background-color: #5BACC3;
   color: #FFF;
-  display: inline-block;
+  display: flex;
 }
 
 .primary-navigation {
@@ -96,16 +97,19 @@ button {
   background-color: #393939;
   width: 100%;
   padding: 0.5px;
+  align-items: center;
 }
 .secondary-navigation__list {
   list-style: none;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .secondary-navigation__item {
-  display: inline;
-  border-left: 0.25rem solid #5BACC3;
   padding-left: 1rem;
   padding-bottom: 0;
+  flex-direction: column;
 }
 .secondary-navigation__link {
   background-color: #393939;
@@ -113,6 +117,8 @@ button {
   font-size: 1.2rem;
   font-weight: 400;
   color: #FFF;
+  border-left: 0.25rem solid #5BACC3;
+  padding-left: 1rem;
   padding-right: 0.5rem;
   padding-bottom: 0;
 }

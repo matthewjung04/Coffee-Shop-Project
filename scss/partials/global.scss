@@ -11,7 +11,8 @@ body {
     font-size: $default-font-size;
     font-weight: $default-font-weight;
     margin: 0;
-    overflow-x: hidden;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 h1, h2 {
@@ -36,7 +37,7 @@ button {
     border: none;
     background-color: #5BACC3;
     color: #FFF;
-    display: inline-block;
+    display: flex;
 }
 
 // Primary Navigation (For both landing and menu page) //
@@ -59,7 +60,7 @@ button {
     &__logo {
         margin: 0;
         text-decoration: none;
-        display: inline-block;
+        display: flex;
 
         &--position {
             width: 50px;
@@ -71,7 +72,7 @@ button {
         @extend h2;
         @include nav-text-align();
     
-        display: inline-block;
+        display: flex;
         margin-top: 0;
         margin-bottom: 0; 
     }

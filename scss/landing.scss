@@ -37,22 +37,27 @@ $pink-background: #FFF0ED;
     }
 
     &__button {
-        @extend p;
-        text-decoration: none;
-        background-color: #5BACC3;
-        color: #FFF;
-        display: inline-block;
-        padding: 1rem 2rem;
-        border: none;
+        width: 12rem;
+        height:3.75rem;
     }
 
     &__box {
-        width: 12.1rem;
-        height: 3.5rem;
-        border: 2px solid #393939;
+        width: 11.9rem;
+        height: 3rem;
+        border: 3px solid #393939;
         position: absolute;
-        top: 38.75rem;
-        left: 7.6rem;
+        top: 38.25rem;
+        left: 7.5rem;
+
+        @extend p;
+        padding-top: 0.75rem;
+        color: #FFFFFF;
+        text-align: center;
+        text-decoration: none;
+
+        &:active {
+            transform: translate(6px, 7px);
+        }
     }
 
     &__photo {
@@ -121,15 +126,27 @@ $pink-background: #FFF0ED;
         @include center-item();
         margin-top: 1rem;
         margin-bottom: 4rem;
+        width: 12rem;
+        height: 3.75rem;
     }
 
     &__box {
-        width: 10.6rem;
-        height: 3.5rem;
-        border: 2px solid #393939;
+        width: 11.8rem;
+        height: 2.8rem;
+        border: 3px solid #393939;
         position: absolute;
-        left: 38.75rem;
-        top: 106.25rem;
+        left: 38rem;
+        top: 106rem;
+
+        @extend p;
+        padding-top: 0.75rem;
+        color: #FFFFFF;
+        text-align: center;
+        text-decoration: none;
+
+        &:active {
+            transform: translate(6px, 7px);
+        }
     }
 }
 
@@ -146,6 +163,15 @@ $pink-background: #FFF0ED;
 }
 
 /* Learn More Section */
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
 .learn-more {
     display: flex;
     justify-content: space-between;
@@ -182,8 +208,15 @@ $pink-background: #FFF0ED;
         border: 5px solid #5BACC3;
         position: absolute;
         top: auto;
-        bottom: -91.5rem;
+        bottom: -91rem;
         right: 105px;
+        align-content: center;
+    }
+    
+    &__rotating-box {
+        &:hover {
+            animation: rotation 2s infinite linear;
+        }
     }
 
     &__icons {
@@ -196,15 +229,27 @@ $pink-background: #FFF0ED;
     &__button {
         display: flex;
         margin-top: 2rem;
+        width: 13rem;
+        height:3.75rem;
     }
 
     &__buttonbox {
-        width: 13.7rem;
-        height: 3.5rem;
-        border: 2px solid #393939;
+        width: 12.75rem;
+        height: 2.75rem;
+        border: 3px solid #393939;
         position: absolute;
-        left: 5.65rem;
-        top: 137.2rem;
+        left: 5.6rem;
+        top: 137rem;
+
+        @extend p;
+        padding-top: 0.75rem;
+        color: #FFFFFF;
+        text-align: center;
+        text-decoration: none;
+
+        &:active {
+            transform: translate(6px, 7px);
+        }
     }
     
     &__link {
@@ -213,12 +258,23 @@ $pink-background: #FFF0ED;
 }
 
 // Discount Section //
+@keyframes color-change {
+    50% {
+        background-color: #5BACC3; 
+    }
+    100% {
+        background-color: #393939;
+    }
+}
+
 .discount-code {
     background-color: #393939;
     color: #FFF;
 
     margin: 0;
     padding: 2rem 0;
+
+    animation: color-change 2.5s infinite;
 
     &__message {
         &--regular {

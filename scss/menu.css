@@ -4,6 +4,7 @@ body {
   font-size: 18px;
   font-weight: 400;
   margin: 0;
+  overflow-x: hidden;
 }
 
 h1, h2, .primary-navigation__title {
@@ -87,7 +88,7 @@ button {
   border: 5px solid #5BACC3;
   position: absolute;
   top: auto;
-  bottom: 19rem;
+  bottom: 20rem;
   right: 36.5rem;
 }
 

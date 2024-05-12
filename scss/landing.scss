@@ -46,6 +46,15 @@ $pink-background: #FFF0ED;
         border: none;
     }
 
+    &__box {
+        width: 12.1rem;
+        height: 3.5rem;
+        border: 2px solid #393939;
+        position: absolute;
+        top: 38.75rem;
+        left: 7.6rem;
+    }
+
     &__photo {
         padding-left: 20rem;
     }
@@ -107,10 +116,21 @@ $pink-background: #FFF0ED;
 }
 
 // View All Button //
-.view-all button {
-    @include center-item();
-    margin-top: 1rem;
-    margin-bottom: 4rem;
+.view-all {
+    &__button {
+        @include center-item();
+        margin-top: 1rem;
+        margin-bottom: 4rem;
+    }
+
+    &__box {
+        width: 10.6rem;
+        height: 3.5rem;
+        border: 2px solid #393939;
+        position: absolute;
+        left: 38.75rem;
+        top: 106.25rem;
+    }
 }
 
 // Bottom Section //
@@ -156,6 +176,16 @@ $pink-background: #FFF0ED;
         @include center-flex();
     }
 
+    &__box {
+        width: 20rem;
+        height: 20rem;
+        border: 5px solid #5BACC3;
+        position: absolute;
+        top: auto;
+        bottom: -91.5rem;
+        right: 105px;
+    }
+
     &__icons {
         padding-top: 0.25rem;
         width: 65%;
@@ -166,6 +196,15 @@ $pink-background: #FFF0ED;
     &__button {
         display: flex;
         margin-top: 2rem;
+    }
+
+    &__buttonbox {
+        width: 13.7rem;
+        height: 3.5rem;
+        border: 2px solid #393939;
+        position: absolute;
+        left: 5.65rem;
+        top: 137.2rem;
     }
     
     &__link {
@@ -196,6 +235,12 @@ $pink-background: #FFF0ED;
 }
 
 /* Footer Section */
+@mixin watermark {
+    width: 120px;
+    opacity:0.3;
+    position: relative;
+}
+
 .footer-section__address, .footer-section__hours,
 .footer-section__social {
     display: inline-block;
@@ -205,19 +250,24 @@ $pink-background: #FFF0ED;
 
 .footer-section {
     background-color: $pink-background;
+    background-position: left top;
 
-    display: block;
-    margin-left: auto;
-    padding: 5rem 5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 
     &__address {
         &--info {
             margin: 0;
-            width: 20rem;
         }
     }
 
     &__hours {
+        margin-left: 6.5rem;
+        margin-right: 6.5rem;
         &--time{
             @extend .footer-section__address--info;
         }
@@ -226,6 +276,20 @@ $pink-background: #FFF0ED;
             margin: 0;
             font-weight: $bold-font-weight;
             font-size: 1.5rem;
+        }
+    }
+
+    &__image {
+        &--left {
+            @include watermark();
+            left: -44px;
+            bottom: 60px;
+        }
+
+        &--right {
+            @include watermark();
+            right: -44px;
+            bottom: -60px;
         }
     }
 }

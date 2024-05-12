@@ -81,6 +81,15 @@ button {
   padding: 3rem 4rem;
   text-align: center;
 }
+.menu-header__box {
+  width: 280px;
+  height: 165px;
+  border: 5px solid #5BACC3;
+  position: absolute;
+  top: auto;
+  bottom: 19rem;
+  right: 36.5rem;
+}
 
 .secondary-navigation {
   background-color: #393939;

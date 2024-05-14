@@ -56,6 +56,7 @@ button {
   display: flex;
   margin-top: 0;
   margin-bottom: 0;
+  padding-left: 0.5rem;
 }
 .primary-navigation__link {
   text-decoration: none;
@@ -64,4 +65,8 @@ button {
 .primary-navigation__link--ShopNow {
   color: #5BACC3;
   text-decoration: none;
+}
+.primary-navigation__box {
+  display: flex;
+  align-items: center;
 }/*# sourceMappingURL=global.css.map */

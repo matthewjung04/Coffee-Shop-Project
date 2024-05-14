@@ -41,12 +41,12 @@ $pink-background: #FFF0ED;
         height:3.75rem;
     }
 
-    &__box {
+    &__link {
         width: 11.9rem;
-        height: 3rem;
+        height: 2.85rem;
         border: 3px solid #393939;
         position: absolute;
-        top: 38.25rem;
+        top: 37.8rem;
         left: 7.5rem;
 
         @extend p;
@@ -130,7 +130,7 @@ $pink-background: #FFF0ED;
         height: 3.75rem;
     }
 
-    &__box {
+    &__link {
         width: 11.8rem;
         height: 2.8rem;
         border: 3px solid #393939;
@@ -208,8 +208,8 @@ $pink-background: #FFF0ED;
         border: 5px solid #5BACC3;
         position: absolute;
         top: auto;
-        bottom: -91rem;
-        right: 105px;
+        bottom: -91.75rem;
+        right: 106.5px;
         align-content: center;
     }
     

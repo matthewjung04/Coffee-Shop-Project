@@ -44,7 +44,7 @@ button {
 .primary-navigation__logo {
   margin: 0;
   text-decoration: none;
-  display: inline-block;
+  display: flex;
 }
 .primary-navigation__logo--position {
   width: 50px;
@@ -53,9 +53,10 @@ button {
 .primary-navigation__title {
   text-decoration: none;
   margin-right: 2rem;
-  display: inline-block;
+  display: flex;
   margin-top: 0;
   margin-bottom: 0;
+  padding-left: 0.5rem;
 }
 .primary-navigation__link {
   text-decoration: none;
@@ -64,6 +65,10 @@ button {
 .primary-navigation__link--ShopNow {
   color: #5BACC3;
   text-decoration: none;
+}
+.primary-navigation__box {
+  display: flex;
+  align-items: center;
 }
 
 .menu-header {
@@ -89,8 +94,8 @@ button {
   border: 5px solid #5BACC3;
   position: absolute;
   top: auto;
-  bottom: 20rem;
-  right: 36.5rem;
+  bottom: 19rem;
+  right: 36.25rem;
 }
 
 .secondary-navigation {

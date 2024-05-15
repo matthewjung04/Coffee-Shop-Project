@@ -6,6 +6,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 h1, h2, .header-section__title, .primary-navigation__title {
@@ -235,7 +236,7 @@ button {
   border: 5px solid #5BACC3;
   position: absolute;
   top: auto;
-  bottom: -91.75rem;
+  bottom: -91rem;
   right: 106.5px;
   align-content: center;
 }
@@ -311,8 +312,8 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 .footer-section__address--info, .footer-section__hours--time {
   margin: 0;

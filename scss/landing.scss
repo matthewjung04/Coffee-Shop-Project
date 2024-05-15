@@ -208,7 +208,7 @@ $pink-background: #FFF0ED;
         border: 5px solid #5BACC3;
         position: absolute;
         top: auto;
-        bottom: -91.75rem;
+        bottom: -91rem;
         right: 106.5px;
         align-content: center;
     }
@@ -312,8 +312,8 @@ $pink-background: #FFF0ED;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 
     &__address {
         &--info {
